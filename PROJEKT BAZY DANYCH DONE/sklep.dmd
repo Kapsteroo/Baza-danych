@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="sklep" id="0BC63FE2-2BA9-1ACE-7CC4-8BCB19C699A0" version="3.5">
+<createdBy>pioha</createdBy>
+<createdTime>2018-04-25 09:22:42 UTC</createdTime>
+<ownerDesignName>sklep</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>0BC63FE2-2BA9-1ACE-7CC4-8BCB19C699A0</designId>
+</OSDM_Design>

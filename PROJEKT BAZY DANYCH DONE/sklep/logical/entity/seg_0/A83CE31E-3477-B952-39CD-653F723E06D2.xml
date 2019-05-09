@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A83CE31E-3477-B952-39CD-653F723E06D2" name="KLIENT">
+<createdBy>Falu</createdBy>
+<createdTime>2018-05-24 11:02:00 UTC</createdTime>
+<ownerDesignName>sklep</ownerDesignName>
+<engineerTo>
+<item key="736EDD80-C4E4-1291-BCEC-DE31B8BFEC18" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="PESEL" id="C166E008-7CE2-411C-1F42-1A247896AD2A">
+<createdBy>Falu</createdBy>
+<createdTime>2018-05-24 11:02:24 UTC</createdTime>
+<ownerDesignName>sklep</ownerDesignName>
+<engineerTo>
+<item key="736EDD80-C4E4-1291-BCEC-DE31B8BFEC18" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>11</dataTypePrecision>
+<ownDataTypeParameters>,11,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Imie_Nazwisko" id="2A389FAF-4A0D-753E-6CF2-0A5520BE64F9">
+<createdBy>Falu</createdBy>
+<createdTime>2018-05-24 11:02:34 UTC</createdTime>
+<ownerDesignName>sklep</ownerDesignName>
+<engineerTo>
+<item key="736EDD80-C4E4-1291-BCEC-DE31B8BFEC18" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Adres_Zamieszkania" id="C95B6A57-29A8-C549-9617-E234FC11AA14">
+<createdBy>Falu</createdBy>
+<createdTime>2018-05-24 11:02:46 UTC</createdTime>
+<ownerDesignName>sklep</ownerDesignName>
+<engineerTo>
+<item key="736EDD80-C4E4-1291-BCEC-DE31B8BFEC18" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nr_Tel" id="BB594457-3040-D533-51A5-D8E4C2490681">
+<createdBy>Falu</createdBy>
+<createdTime>2018-05-24 11:02:58 UTC</createdTime>
+<ownerDesignName>sklep</ownerDesignName>
+<engineerTo>
+<item key="736EDD80-C4E4-1291-BCEC-DE31B8BFEC18" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="44AFC4BD-1F74-9817-2B29-6400FC960E42" name="KLIENT PK">
+<createdBy>Falu</createdBy>
+<createdTime>2018-05-24 11:02:30 UTC</createdTime>
+<ownerDesignName>sklep</ownerDesignName>
+<engineerTo>
+<item key="736EDD80-C4E4-1291-BCEC-DE31B8BFEC18" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>C166E008-7CE2-411C-1F42-1A247896AD2A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

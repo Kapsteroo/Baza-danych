@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="POSIADANIE" directorySegmentName="seg_0" id="C0D4F28B-2F57-4FB5-A827-359131BDEAD7">
+<createdBy>Falu</createdBy>
+<createdTime>2018-05-24 11:09:04 UTC</createdTime>
+<ownerDesignName>sklep</ownerDesignName>
+<engineerTo>
+<item key="736EDD80-C4E4-1291-BCEC-DE31B8BFEC18" value="true"/>
+</engineerTo>
+<sourcePk>44AFC4BD-1F74-9817-2B29-6400FC960E42</sourcePk>
+<targetPk>7CC83FC5-2973-37BF-A018-DF409DC7C9AE</targetPk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>A83CE31E-3477-B952-39CD-653F723E06D2</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>881FBCF1-47A2-D09D-A2AA-E06D5E42C72E</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

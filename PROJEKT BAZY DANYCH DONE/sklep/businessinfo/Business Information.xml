@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<BusinessInfoDesign class="oracle.dbtools.crest.model.businessinfo.BusinessInfoDesign" name="Business Information" id="470144E2-F728-0715-49D7-BA84B32A5427">
+<createdBy>pioha</createdBy>
+<createdTime>2018-04-25 09:22:43 UTC</createdTime>
+<ownerDesignName>sklep</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</BusinessInfoDesign>

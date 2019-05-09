@@ -1,0 +1,105 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C9B619DE-24AB-7685-CD7A-0A91FED3642F" name="EGZEMPLARZ">
+<createdBy>Falu</createdBy>
+<createdTime>2018-06-02 14:47:45 UTC</createdTime>
+<generatorID>CA7A99DF-33BD-D356-AE04-C09361C1C465</generatorID>
+<ownerDesignName>sklep</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Id_Egzamplarza" id="1F00B341-2E9A-D2CA-4594-340CD048EA8F">
+<createdBy>Falu</createdBy>
+<createdTime>2018-06-02 14:47:45 UTC</createdTime>
+<generatorID>2B2C9761-321D-6C17-767B-B4D52019E060</generatorID>
+<ownerDesignName>sklep</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>9 CHAR</dataTypeSize>
+<ownDataTypeParameters>9 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PRODUKT_Id_Produktu" id="4F4A6F18-BAB3-B321-C8A9-1F0B928A7FB1">
+<createdBy>Falu</createdBy>
+<createdTime>2018-06-02 14:47:45 UTC</createdTime>
+<generatorID>C735F1AE-8AF4-832B-0583-8B38DDD3969D</generatorID>
+<ownerDesignName>sklep</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>12 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E9A031C7-2459-7289-205D-0EEAF6A37E8E" referredColumn="96D1867D-FB01-CC5F-BEDD-7A470C64F923"/>
+</associations>
+</Column>
+<Column name="Id_Zamówienia" id="AFDBFC03-4996-5215-BDF4-43248486F400">
+<createdBy>Falu</createdBy>
+<createdTime>2018-06-02 14:47:45 UTC</createdTime>
+<generatorID>CA0B79C0-7782-036A-5212-136B4736BFD6</generatorID>
+<ownerDesignName>sklep</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>30</dataTypePrecision>
+<ownDataTypeParameters>,30,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ZAMÓWIENIE_Id_Zamówienia" id="8B4FBC3E-A60C-7C08-0FA4-03A731027753">
+<createdBy>Falu</createdBy>
+<createdTime>2018-06-02 14:47:45 UTC</createdTime>
+<generatorID>29FECE46-EA70-91B5-6FD9-3707F7241A7D</generatorID>
+<ownerDesignName>sklep</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>30</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C759B9EE-CB4F-8D6A-F4A7-4F0E778E4619" referredColumn="75C5FA23-1E26-B67F-F9D0-C0FAFE6C4169"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CAC3FA0D-2EED-B8F5-8003-BCE9B6BB27C4" name="EGZEMPLARZ_PK">
+<createdBy>Falu</createdBy>
+<createdTime>2018-06-02 14:47:45 UTC</createdTime>
+<generatorID>085FCA76-8245-30E4-0E18-D30D6C87910F</generatorID>
+<ownerDesignName>sklep</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1F00B341-2E9A-D2CA-4594-340CD048EA8F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D4AB9929-653F-8E0F-368B-F08CB3721B45" name="EGZEMPLARZ_PRODUKT_FK">
+<createdBy>Falu</createdBy>
+<createdTime>2018-06-02 14:47:45 UTC</createdTime>
+<generatorID>50D6B160-0F29-AAF5-DD99-125E0EDD84BE</generatorID>
+<ownerDesignName>sklep</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4F4A6F18-BAB3-B321-C8A9-1F0B928A7FB1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EAEEAFED-511A-2A55-A73A-B3CF9FDA2473" name="EGZEMPLARZ_ZAMÓWIENIE_FK">
+<createdBy>Falu</createdBy>
+<createdTime>2018-06-02 14:47:45 UTC</createdTime>
+<generatorID>3D69E383-6BAC-4B23-AA1E-088E1AEBEB75</generatorID>
+<ownerDesignName>sklep</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8B4FBC3E-A60C-7C08-0FA4-03A731027753"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

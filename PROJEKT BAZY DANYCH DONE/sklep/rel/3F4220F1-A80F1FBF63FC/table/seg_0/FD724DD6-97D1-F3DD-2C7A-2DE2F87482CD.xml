@@ -1,0 +1,126 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FD724DD6-97D1-F3DD-2C7A-2DE2F87482CD" name="ZAMÓWIENIE">
+<createdBy>Falu</createdBy>
+<createdTime>2018-06-02 14:47:45 UTC</createdTime>
+<generatorID>63DAF7C2-8E35-A7AD-9112-23F705B22F2E</generatorID>
+<ownerDesignName>sklep</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Id_Zamówienia" id="75C5FA23-1E26-B67F-F9D0-C0FAFE6C4169">
+<createdBy>Falu</createdBy>
+<createdTime>2018-06-02 14:47:45 UTC</createdTime>
+<generatorID>8F8E7639-AD58-5B05-0D2E-88B58840856E</generatorID>
+<ownerDesignName>sklep</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>30</dataTypePrecision>
+<ownDataTypeParameters>,30,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Adres_Zamówienia" id="68FE28C5-FDCA-BFFC-0437-41D133FDDB86">
+<createdBy>Falu</createdBy>
+<createdTime>2018-06-02 14:47:45 UTC</createdTime>
+<generatorID>A885ADB2-2560-42E1-C5AE-F496489164E2</generatorID>
+<ownerDesignName>sklep</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Łączna_Kwota" id="83EB12B9-67B4-827D-B1E4-C2C48E8D6E22">
+<createdBy>Falu</createdBy>
+<createdTime>2018-06-02 14:47:45 UTC</createdTime>
+<generatorID>C26A9EC6-DDCC-8B8E-C1CF-B70F567DD5F4</generatorID>
+<ownerDesignName>sklep</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>11</dataTypePrecision>
+<ownDataTypeParameters>,11,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Data_Zamówienia" id="8F61894E-DF29-EFAD-0B92-67D4C0BD2BD7">
+<createdBy>Falu</createdBy>
+<createdTime>2018-06-02 14:47:45 UTC</createdTime>
+<generatorID>129920C3-363F-445E-5BA5-73F5B674C682</generatorID>
+<ownerDesignName>sklep</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DOSTAWCA_Id_Dostawcy" id="FCD18AE5-2A50-0A01-23A7-0EB9BB7B970C">
+<createdBy>Falu</createdBy>
+<createdTime>2018-06-02 14:47:45 UTC</createdTime>
+<generatorID>D08CFA9C-FDEA-43D4-1E1C-BFACCDF6DDAF</generatorID>
+<ownerDesignName>sklep</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="68EE84E4-F0D9-5EA8-01AD-8F9EEBD8A546" referredColumn="85D473AD-68EF-D713-C420-219D35C4ED50"/>
+</associations>
+</Column>
+<Column name="KONTO_Email" id="E2525BBB-09F8-72FA-846C-FC63E74EE203">
+<createdBy>Falu</createdBy>
+<createdTime>2018-06-02 14:47:45 UTC</createdTime>
+<generatorID>F7CB5D34-8447-B89C-5FD8-0C7AC80EA7A8</generatorID>
+<ownerDesignName>sklep</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B729D839-E6D9-D663-F05F-1FA1E5050641" referredColumn="129DD2A9-72F1-6A52-3148-31E353764DBA"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="896385BD-08B2-9B49-3A29-6951881CDC5B" name="ZAMÓWIENIE_PK">
+<createdBy>Falu</createdBy>
+<createdTime>2018-06-02 14:47:45 UTC</createdTime>
+<generatorID>C3603081-FC15-4819-7183-F49D5B2CCED1</generatorID>
+<ownerDesignName>sklep</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="75C5FA23-1E26-B67F-F9D0-C0FAFE6C4169"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B8F4B5DB-C927-CC41-E921-2BB81BD5FB86" name="ZAMÓWIENIE_DOSTAWCA_FK">
+<createdBy>Falu</createdBy>
+<createdTime>2018-06-02 14:47:45 UTC</createdTime>
+<generatorID>02404E4F-9963-051E-CA7A-4EF9DE1D1750</generatorID>
+<ownerDesignName>sklep</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FCD18AE5-2A50-0A01-23A7-0EB9BB7B970C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E07A371E-91C4-D538-C67D-D2814DBDF01C" name="ZAMÓWIENIE_KONTO_FK">
+<createdBy>Falu</createdBy>
+<createdTime>2018-06-02 14:47:45 UTC</createdTime>
+<generatorID>89ADE2DC-A7F9-C8DB-0342-3F4AD4C35D79</generatorID>
+<ownerDesignName>sklep</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E2525BBB-09F8-72FA-846C-FC63E74EE203"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

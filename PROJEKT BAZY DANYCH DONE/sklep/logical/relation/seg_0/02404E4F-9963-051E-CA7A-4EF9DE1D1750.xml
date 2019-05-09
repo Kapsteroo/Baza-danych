@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="DOSTAWA" directorySegmentName="seg_0" id="02404E4F-9963-051E-CA7A-4EF9DE1D1750">
+<createdBy>Falu</createdBy>
+<createdTime>2018-05-24 11:11:44 UTC</createdTime>
+<ownerDesignName>sklep</ownerDesignName>
+<engineerTo>
+<item key="736EDD80-C4E4-1291-BCEC-DE31B8BFEC18" value="true"/>
+</engineerTo>
+<sourcePk>A22BA3EF-47F5-4FFD-D759-0645981167DC</sourcePk>
+<targetPk>C3603081-FC15-4819-7183-F49D5B2CCED1</targetPk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>ADBE0F35-BB53-F4B3-F7E5-7CB605B6E67D</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>63DAF7C2-8E35-A7AD-9112-23F705B22F2E</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

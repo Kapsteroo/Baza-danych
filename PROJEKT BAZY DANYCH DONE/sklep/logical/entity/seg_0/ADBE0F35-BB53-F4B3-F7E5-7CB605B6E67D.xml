@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="ADBE0F35-BB53-F4B3-F7E5-7CB605B6E67D" name="DOSTAWCA">
+<createdBy>Falu</createdBy>
+<createdTime>2018-05-24 11:07:18 UTC</createdTime>
+<ownerDesignName>sklep</ownerDesignName>
+<engineerTo>
+<item key="736EDD80-C4E4-1291-BCEC-DE31B8BFEC18" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Id_Dostawcy" id="D46D4937-7F31-D9FE-C9D2-6CDE9E994473">
+<createdBy>Falu</createdBy>
+<createdTime>2018-05-24 11:07:25 UTC</createdTime>
+<ownerDesignName>sklep</ownerDesignName>
+<engineerTo>
+<item key="736EDD80-C4E4-1291-BCEC-DE31B8BFEC18" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nazwa_Dostawcy" id="2DE33FAA-38EE-071B-3A5A-DD59A9A9E665">
+<createdBy>Falu</createdBy>
+<createdTime>2018-05-24 11:07:35 UTC</createdTime>
+<ownerDesignName>sklep</ownerDesignName>
+<engineerTo>
+<item key="736EDD80-C4E4-1291-BCEC-DE31B8BFEC18" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Adres_Dostawcy" id="36736F53-A4E0-3D79-1C6C-E33713CD69B9">
+<createdBy>Falu</createdBy>
+<createdTime>2018-05-24 11:07:47 UTC</createdTime>
+<ownerDesignName>sklep</ownerDesignName>
+<engineerTo>
+<item key="736EDD80-C4E4-1291-BCEC-DE31B8BFEC18" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60 CHAR</dataTypeSize>
+<ownDataTypeParameters>60 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A22BA3EF-47F5-4FFD-D759-0645981167DC" name="DOSTAWCA PK">
+<createdBy>Falu</createdBy>
+<createdTime>2018-05-24 11:07:33 UTC</createdTime>
+<ownerDesignName>sklep</ownerDesignName>
+<engineerTo>
+<item key="736EDD80-C4E4-1291-BCEC-DE31B8BFEC18" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>D46D4937-7F31-D9FE-C9D2-6CDE9E994473</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="PRZYNALEŻNOŚĆ" directorySegmentName="seg_0" id="50D6B160-0F29-AAF5-DD99-125E0EDD84BE">
+<createdBy>Falu</createdBy>
+<createdTime>2018-05-24 11:09:28 UTC</createdTime>
+<ownerDesignName>sklep</ownerDesignName>
+<engineerTo>
+<item key="736EDD80-C4E4-1291-BCEC-DE31B8BFEC18" value="true"/>
+</engineerTo>
+<sourcePk>166D8CDA-E986-97F2-DB56-0BD53E55333F</sourcePk>
+<targetPk>085FCA76-8245-30E4-0E18-D30D6C87910F</targetPk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>FDAF11CB-F39C-7604-49B8-630E417857E8</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>CA7A99DF-33BD-D356-AE04-C09361C1C465</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

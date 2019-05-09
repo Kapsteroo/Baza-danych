@@ -1,0 +1,34 @@
+Table DOSTAWCA created.
+
+Table DOSTAWCA altered.
+
+Table EGZEMPLARZ created.
+
+Table EGZEMPLARZ altered.
+
+Table KLIENT created.
+
+Table KLIENT altered.
+
+Table KONTO created.
+
+Table KONTO altered.
+
+Table PRODUKT created.
+
+Table PRODUKT altered.
+
+Table ZAMÓWIENIE created.
+
+Table ZAMÓWIENIE altered.
+
+Table EGZEMPLARZ altered.
+
+Table EGZEMPLARZ altered.
+
+Table KONTO altered.
+
+Table ZAMÓWIENIE altered.
+
+Table ZAMÓWIENIE altered.
+

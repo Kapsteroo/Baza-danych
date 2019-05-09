@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E9161B84-F9F1-6473-60F1-5BF16BCDDDEF" name="PRODUKT">
+<createdBy>Falu</createdBy>
+<createdTime>2018-06-02 14:47:45 UTC</createdTime>
+<generatorID>FDAF11CB-F39C-7604-49B8-630E417857E8</generatorID>
+<ownerDesignName>sklep</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Id_Produktu" id="96D1867D-FB01-CC5F-BEDD-7A470C64F923">
+<createdBy>Falu</createdBy>
+<createdTime>2018-06-02 14:47:45 UTC</createdTime>
+<generatorID>27CF10B6-89F5-6130-9DE2-726A1602786D</generatorID>
+<ownerDesignName>sklep</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>12 CHAR</dataTypeSize>
+<ownDataTypeParameters>12 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nazwa_Prod" id="E23B63F7-6E94-0BE2-7E61-52E5093C7FD0">
+<createdBy>Falu</createdBy>
+<createdTime>2018-06-02 14:47:45 UTC</createdTime>
+<generatorID>9A9088A4-2700-2625-783B-BEBCF3189A6D</generatorID>
+<ownerDesignName>sklep</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>55 CHAR</dataTypeSize>
+<ownDataTypeParameters>55 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Kategoria" id="A499ABCF-E20E-1FC8-0C11-6CDE52D4A5CE">
+<createdBy>Falu</createdBy>
+<createdTime>2018-06-02 14:47:45 UTC</createdTime>
+<generatorID>4E48DC18-2174-0708-5902-54FCDE1590A1</generatorID>
+<ownerDesignName>sklep</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Cena_Jednostkowa" id="3F11FE13-E769-D18F-9425-4396F8B951C5">
+<createdBy>Falu</createdBy>
+<createdTime>2018-06-02 14:47:45 UTC</createdTime>
+<generatorID>53C8AB91-83E3-12FE-859B-ABC83797051E</generatorID>
+<ownerDesignName>sklep</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>11</dataTypePrecision>
+<ownDataTypeParameters>,11,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F18F9A67-974D-C071-1BF7-962E47FC9B68" name="PRODUKT_PK">
+<createdBy>Falu</createdBy>
+<createdTime>2018-06-02 14:47:45 UTC</createdTime>
+<generatorID>166D8CDA-E986-97F2-DB56-0BD53E55333F</generatorID>
+<ownerDesignName>sklep</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="96D1867D-FB01-CC5F-BEDD-7A470C64F923"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
